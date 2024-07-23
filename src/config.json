@@ -1,0 +1,10 @@
+{
+    "globalPrefix": ";;",
+    "token": "",
+    "clientId": "",
+    "guildId": "",
+    "keyvDB": "",
+    "eventsDir": ["../events", "../events/context-menu", "../events/modal", "../events/messageCreate", "../events/roles", "../events/interactions"],
+    "commandsDir": ["../commands/slash-command/general"],
+    "prefixCommandDir": ["../commands/prefix-command"]
+}

@@ -1,0 +1,19 @@
+const {
+  EmbedBuilder,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  InteractionType,
+} = require("discord.js");
+const axios = require("axios");
+
+module.exports = {
+  name: "interactionCreate",
+  async execute(interaction) {
+    if (interaction.type !== InteractionType.ModalSubmit) return;
+
+    if (interaction.customId === "shortLink") {
+    }
+    return;
+  },
+};

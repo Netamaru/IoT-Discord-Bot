@@ -1,0 +1,31 @@
+{
+  "name": "netabot-djs-v14",
+  "version": "1.0.0",
+  "description": "NetaBot Discord.js v14",
+  "main": "--no-warnings index.js",
+  "scripts": {
+    "test": "nodemon --no-warnings src/index",
+    "start": "node --no-warnings src/index",
+    "forever": "./node_modules/forever/bin/forever ./src/index.js",
+    "deploy": "node src/handlers/deploy/deploy",
+    "deploy-g": "node src/handlers/deploy/deploy-global",
+    "destroy": "node src/handlers/deploy/destroy",
+    "destroy-g": "node src/handlers/deploy/destroy-global"
+  },
+  "author": "Netamaru",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "@keyv/mysql": "^1.7.5",
+    "@keyvhq/core": "^2.1.1",
+    "@keyvhq/mysql": "^2.1.1",
+    "cli-color": "^2.0.4",
+    "columnify": "^1.6.0",
+    "discord.js": "^14.15.2",
+    "forever": "^4.0.3",
+    "keyv": "^4.5.4",
+    "lodash": "^4.17.21",
+    "node-cmd": "^5.0.0"
+  }
+}
